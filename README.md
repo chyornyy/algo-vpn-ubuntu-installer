@@ -42,10 +42,13 @@ Run the script as root:
 sudo ./setup.sh
 ```
 
+
+
 Follow the prompts and answer the questions to configure the VPN server.
 Once the script completes, copy the VPN configuration files to your local machine using the following command:
 ```
-scp -r LINUX_USER@SERVER_IP_ADDRESS:/home/LINUX_USER/algo/configs/SERVER_IP_ADDRESS/wireguard/ Dev/vpn
+mkdir algovpn-keys
+scp -r ubuntu@13.49.183.154:/home/ubuntu/algo/configs/13.49.183.154/wireguard/ algovpn-keys
 ```
 
 ## Usage
