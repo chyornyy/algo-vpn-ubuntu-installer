@@ -1,5 +1,5 @@
-# AlgoVPN Ubuntu Installer
-This script automates the installation and configuration of Algo VPN server. Algo is a self-hosted personal VPN server that offers excellent security and privacy for all devices connected to it.
+# [Algo VPN](https://github.com/trailofbits/algo) Ubuntu Installer
+This script automates the installation and configuration of [Algo VPN](https://github.com/trailofbits/algo) server. Algo is a self-hosted personal VPN server that offers excellent security and privacy for all devices connected to it.
 
 ## Dependencies
 This script is written in bash and requires the following dependencies:
@@ -29,7 +29,9 @@ Create script:
 nano setup.sh
 ```
 Copy-paste source code:
-https://github.com/chyornyy/algovpn-ubuntu-installer
+```
+https://github.com/chyornyy/algovpn-ubuntu-installer/blob/main/setup.sh
+```
 
 Make the script executable:
 ```
@@ -48,4 +50,4 @@ scp -r LINUX_USER@SERVER_IP_ADDRESS:/home/LINUX_USER/algo/configs/SERVER_IP_ADDR
 
 ## Usage
 
-To use the Algo VPN server, simply connect to it using the generated configuration files on your device. For more information on how to connect to the VPN server, refer to the Algo VPN documentation.
+To use the Algo VPN server, simply connect to it using the generated configuration files on your device. For more information on how to connect to the VPN server, refer to the [Algo VPN](https://github.com/trailofbits/algo/tree/master/docs) documentation.
