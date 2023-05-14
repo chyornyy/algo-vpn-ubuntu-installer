@@ -21,14 +21,4 @@ python3 -m pip install -r requirements.txt
 nano config.cfg
 
 # Run Algo
-./algo <<EOF
-12
-y
-y
-HomeNet
-y
-y
-N
-
-localhost
-EOF
+./algo

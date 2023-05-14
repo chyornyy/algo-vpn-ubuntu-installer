@@ -37,7 +37,34 @@ Make the script executable and run the script::
 ```
 chmod +x setup.sh && ./setup.sh
 ```
-
+After start of the installation choose:
+```
+12
+```
+```
+y
+```
+```
+y
+```
+```
+HomeNet
+```
+```
+y
+```
+```
+y
+```
+```
+N
+```
+```
+(empty)
+```
+```
+localhost
+```
 Follow the prompts and answer the questions to configure the VPN server.
 Once the script completes, copy the VPN configuration files to your local machine using the following command:
 ```
