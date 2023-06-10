@@ -18,6 +18,10 @@ Clone the repository to your local machine:
 ```
 git clone https://github.com/chyornyy/algovpn-ubuntu-installer.git
 ```
+Choose directory and make setup script executable:
+```
+cd algovpn-ubuntu-installer && chmod +x setup.sh
+```
 Run the script:
 ```
 ./setup.sh
