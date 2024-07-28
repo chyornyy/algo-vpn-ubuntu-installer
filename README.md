@@ -1,6 +1,8 @@
 # [Algo VPN](https://github.com/trailofbits/algo) Ubuntu Installer
 This script automates the installation and configuration of [Algo VPN](https://github.com/trailofbits/algo) server. Algo is a self-hosted personal VPN server that offers excellent security and privacy for all devices connected to it.
 
+Ubuntu 20.04
+
 ## Dependencies
 This script is written in bash and requires the following dependencies:
 ```
@@ -55,10 +57,10 @@ y
 HomeNet
 ```
 ```
-y
+N
 ```
 ```
-y
+N
 ```
 ```
 N
@@ -68,6 +70,9 @@ N
 ```
 ```
 localhost
+```
+```
+YOUR PUBLIC IP ADDRESS
 ```
 Follow the prompts and answer the questions to configure the VPN server.
 Once the script completes, copy the VPN configuration files to your local machine using the following command:
